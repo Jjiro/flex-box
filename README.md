@@ -41,3 +41,16 @@ align-self: center; = puts item in the center of the container
 order: 1; = changes the order of where items are positioned on the container
 
 }
+
+/_ C U P_/
+fb-cont{
+display: flex;
+justify-content: center;
+align-item: center;
+}
+
+fb-it{
+flex-grow: 2;
+flex-shrink: 0;
+flex-basis: 0;
+}
