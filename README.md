@@ -38,5 +38,6 @@ flex-basis: 0; = tells flexbox to share the spaces evenly between items
 
 align-self: fles-end; = puts item at the end(bottom) of the container
 align-self: center; = puts item in the center of the container
+order: 1; = changes the order of where items are positioned on the container
 
 }
