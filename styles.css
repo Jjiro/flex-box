@@ -1,3 +1,9 @@
+.header {
+  align-items: center;
+  margin: 10px 10px 10px 10px;
+  font-weight: 500;
+}
+
 .flexbox-container {
   display: flex;
   flex-wrap: wrap;
@@ -26,9 +32,8 @@
   min-height: 200px;
   flex-grow: 2;
   flex-basis: 0;
-  /**align-self: center; **/ 
+  /**align-self: center; **/
   order: 1;
-
 }
 .flexbox-item3 {
   min-height: 300px;
