@@ -1,6 +1,6 @@
 # flex-box
 
-Flexbox intro
+Flexbox intro - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 FLEXBOX-CONATAINER{
 display: flex; = initialize flexbox
