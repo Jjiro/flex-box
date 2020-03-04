@@ -1,0 +1,37 @@
+.flexbox-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /**align-items: flex-start; /** or center  -- this pushes the items to fill the height of the container**/
+  /**align-content: center;**/
+  /**flex-direction: column;**/
+  /**justify-content: center; **/
+  /**align-items: center;**/
+}
+
+.flexbox-item {
+  width: 200px;
+  margin: 10px;
+  border: 3px solid rgb(170, 170, 170);
+  background-color: rgb(220, 240, 223);
+}
+
+.flexbox-item1 {
+  min-height: 100px;
+  flex-shrink: 0;
+  align-self: flex-end;
+  order: 3;
+}
+.flexbox-item2 {
+  min-height: 200px;
+  flex-grow: 2;
+  flex-basis: 0;
+  /**align-self: center; **/ 
+  order: 1;
+
+}
+.flexbox-item3 {
+  min-height: 300px;
+  flex-grow: 1;
+  flex-basis: 1;
+}
